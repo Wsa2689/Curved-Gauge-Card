@@ -29,7 +29,7 @@ Works out of the box with **ANY numeric Home Assistant entity** (Temperature, Hu
 
 1. Ensure [HACS](https://hacs.xyz/) is installed in Home Assistant.
 2. In HACS, click the **3 dots in the top-right corner** $\rightarrow$ **Custom repositories**.
-3. Add repository URL: `https://github.com/sharn25/Curved-Gauge-Card`
+3. Add repository URL: `https://github.com/sharn25/Curved-curved-gauge-card`
 4. Category: **Dashboard** (or **Plugin**).
 5. Click **Add** $\rightarrow$ Click **Download**.
 
@@ -37,15 +37,15 @@ Works out of the box with **ANY numeric Home Assistant entity** (Temperature, Hu
 
 ### Method 2: Manual Installation
 
-1. Download [`curved-gauge-card.js`](curved-gauge-card.js).
-2. Copy `curved-gauge-card.js` into your Home Assistant configuration directory under `homeassistant/www/`:
+1. Download [`curved-curved-gauge-card.js`](curved-curved-gauge-card.js).
+2. Copy `curved-curved-gauge-card.js` into your Home Assistant configuration directory under `homeassistant/www/`:
    ```text
    homeassistant/
       └── www/
-          └── gauge-card.js
+          └── curved-gauge-card.js
    ```
 3. In Home Assistant, navigate to **Settings** $\rightarrow$ **Dashboards** $\rightarrow$ **3 dots (top right)** $\rightarrow$ **Resources** $\rightarrow$ **Add Resource**:
-   - **URL**: `/local/curved-gauge-card.js`
+   - **URL**: `/local/curved-curved-gauge-card.js`
    - **Resource type**: `JavaScript Module`
 4. Refresh your browser.
 
@@ -55,7 +55,7 @@ Works out of the box with **ANY numeric Home Assistant entity** (Temperature, Hu
 
 ### 1. Temperature Gauge (Built-In Preset) 🌡️
 ```yaml
-type: custom:gauge-card
+type: custom:curved-gauge-card
 entity: sensor.living_room_temperature
 title: Bedroom
 subtitle: AIR COMFORT
@@ -64,7 +64,7 @@ preset: temperature
 
 ### 2. Humidity Gauge (Built-In Preset) 💧
 ```yaml
-type: custom:gauge-card
+type: custom:curved-gauge-card
 entity: sensor.bedroom_humidity
 title: Bedroom
 subtitle: AIR COMFORT
@@ -73,7 +73,7 @@ preset: humidity
 
 ### 3. Air Quality Gauge (4-Zone AQI Preset) 🍃
 ```yaml
-type: custom:gauge-card
+type: custom:curved-gauge-card
 entity: sensor.indoor_air_quality
 title: Indoor Environment
 subtitle: AIR QUALITY
@@ -82,7 +82,7 @@ preset: air_quality
 
 ### 4. Battery Level Gauge 🔋
 ```yaml
-type: custom:gauge-card
+type: custom:curved-gauge-card
 entity: sensor.phone_battery_level
 title: Phone Battery
 subtitle: DEVICE STATUS
@@ -91,7 +91,7 @@ preset: battery
 
 ### 5. Custom Solar / Power Gauge (Custom Zones) ⚡
 ```yaml
-type: custom:gauge-card
+type: custom:curved-gauge-card
 entity: sensor.solar_inverter_power
 title: Solar Inverter
 subtitle: ENERGY GENERATION
@@ -120,7 +120,7 @@ segments:
 
 | Option | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
-| `type` | `string` | **Required** | `custom:gauge-card` |
+| `type` | `string` | **Required** | `custom:curved-gauge-card` |
 | `entity` | `string` | **Required** | Any Home Assistant numeric sensor entity ID |
 | `title` | `string` | Entity name | Main card title |
 | `subtitle` | `string` | `""` | Small uppercase category tag above the title |
