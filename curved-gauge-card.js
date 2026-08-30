@@ -18,7 +18,7 @@ class CurvedGaugeCard extends HTMLElement {
 
   static getStubConfig() {
     return {
-      type: "custom:gauge-card",
+      type: "custom:curved-gauge-card",
       entity: "sensor.temperature",
       title: "Temperature",
       preset: "temperature",
@@ -555,7 +555,7 @@ class CurvedGaugeCard extends HTMLElement {
   }
 
   static async getConfigElement() {
-    return document.createElement("gauge-card-editor");
+    return document.createElement("curved-gauge-card-editor");
   }
 
   getCardSize() {
@@ -737,17 +737,17 @@ class CurvedGaugeCardEditor extends HTMLElement {
 }
 
 // Custom Element Registration
-if (!customElements.get("gauge-card-editor")) {
-  customElements.define("gauge-card-editor", CurvedGaugeCardEditor);
+if (!customElements.get("curved-gauge-card-editor")) {
+  customElements.define("curved-gauge-card-editor", CurvedGaugeCardEditor);
 }
-if (!customElements.get("gauge-card")) {
-  customElements.define("gauge-card", CurvedGaugeCard);
+if (!customElements.get("curved-gauge-card")) {
+  customElements.define("curved-gauge-card", CurvedGaugeCard);
 }
 
 // Register in Home Assistant Card Picker
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: "gauge-card",
+  type: "curved-gauge-card",
   name: "Curved Gauge Card",
   description: "A clean, modern semicircular curved segmented arc gauge card.",
   preview: true,
@@ -755,7 +755,7 @@ window.customCards.push({
 });
 
 console.info(
-  "%c GAUGE-CARD %c v1.0.0 Optimized ",
+  "%c GAUGE-CARD %c v1.0.1 Optimized ",
   "color: white; background: #10B981; font-weight: bold; border-radius: 4px;",
   "color: #10B981; background: transparent;"
 );
