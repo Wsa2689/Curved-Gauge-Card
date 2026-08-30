@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+__pycache__/
+env/
+venv/
+
+# Secrets & Environment variables
+.env
+*.pem
+*.key
+
+# Build outputs & OS junk
+dist/
+build/
+.DS_Store
